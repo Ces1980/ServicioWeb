@@ -3,10 +3,9 @@
     <img src="../favicon.ico" alt="Angular Logo" width="200">
 </div>
 <div class="container">
-    <!-- Creando botones -->
-    <button class="btn btn-info">Listar</button>
-    <!-- Separando botones con style="margin-left: 10px;" -->
-    <button class="btn btn-info" style="margin-left: 10px;">Nuevo</button>
+    <!-- Insertando métodos para darle funcionalidad a los botones Listar y Nuevo -->
+    <button (click)="Listar()" class="btn btn-info">Listar</button>
+    <button (click)="Nuevo()" class="btn btn-info" style="margin-left: 10px;">Nuevo</button>
 </div>
 <hr>
 
